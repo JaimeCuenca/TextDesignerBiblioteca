@@ -56,11 +56,11 @@ namespace TextDesignerBiblioteca
         {
             List<String> opciones = new List<String>(){
             "Microsoft Sans Serif",
-            "Arial",
+            "Symbol",
             "Consolas",
             "Verdana",
-            "Harlow Solid Italic",
-            "Aharoni"};
+            "Tahoma",
+            "Comic Sans MS"};
 
 
             String seleccion = opciones[listBox1.SelectedIndex];
@@ -69,7 +69,7 @@ namespace TextDesignerBiblioteca
             {
                 font = seleccion;
             }
-            if (seleccion == "Arial")
+            if (seleccion == "Symbol")
             {
                 font = seleccion;
             }
@@ -81,11 +81,11 @@ namespace TextDesignerBiblioteca
             {
                 font = seleccion;
             }
-            if (seleccion == "Harlow Solid Italic")
+            if (seleccion == "Tahoma")
             {
                 font = seleccion;
             }
-            if (seleccion == "Aharoni")
+            if (seleccion == "Comic Sans MS")
             {
                 font = seleccion;
             }
